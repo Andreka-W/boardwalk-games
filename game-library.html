@@ -341,6 +341,49 @@
           </div>
         </div>
       </section>
+
+      <!-- Reservation Section -->
+       <section id="reserve" class="container section">
+        <div class="row">
+          <div class="col-12  text-center">
+            <h2 class="display-6">Reserve a game</h2>
+            
+          </div>
+          <form action="sucess.html" method="GET" class="event-form flex justify-content-center">
+              <div class="row container-sm">
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input class="form-control" id="name" name="name" type="text" required />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input class="form-control" id="phone" name="phone" type="number" required />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input class="form-control" id="email" name="email" type="email" required />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="event-type" class="form-label">Select Game</label>
+                  <select id="event-type" class="form-select" name="event-type" required >
+                    <option value="" selected>Select Game</option>
+                    <option value="regular-play">Reserve a table</option>
+                    <option value="dnd">Dungeons & Dragons</option>
+                    <option value="retro-night">Retro Game Night</option>
+                    <option value="tournament">Tournament</option>
+                    <option value="kids-party">Kids party</option>
+                  </select>
+                </div>
+                <div class="col-12 mb-3">
+                  <label for="date" class="form-label">Requested Date</label>
+                  <input type="date" class="date" id="date" required>
+                </div>
+              </div>
+              <div class="text-end">
+              <button type="submit" class="btn custom-button-outline">Submit</button>
+              </div>
+            </form>
+       </section>
     </main>
 
     <!-- Footer / contact section -->

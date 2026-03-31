@@ -180,6 +180,10 @@ h2 {
   #services .card-body {
     min-height: 191px;
   }
+
+  .event-form {
+    
+  }
 }
 
 /* Large devices (small laptops, 992px and above */
