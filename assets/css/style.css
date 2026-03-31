@@ -60,12 +60,26 @@ h2 {
 .custom-button-outline {
   border: 3px solid var(--higlight-color);
   padding: 7px 25px;
+  color: var(--higlight-color);
 }
 
 .custom-button-outline:hover {
   background-color: var(--higlight-color);
   color: white;
   
+}
+
+.discount {
+  border: 2px solid var(--higlight-color);
+  background-color: var(--higlight-color);
+  color: white;
+  padding: 7px 25px;
+}
+
+.discount:hover{
+  border: 2px solid var(--higlight-color);
+  background-color: var(--higlight-color);
+  color: white;
 }
 
 /* Navbar */
@@ -96,12 +110,19 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+.event-table {
+  font-size: 0.85rem;
+}
+
 /* Games Library Cards */
 
 #new-games .card,
 #fav-games .card {
   border: none;
 }
+
 
 /* Footer / Contact */
 #contact {
